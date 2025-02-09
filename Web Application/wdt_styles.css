@@ -1,0 +1,188 @@
+* {
+  font-family: Calibri;
+  color: #212529;
+}
+
+/*Bootstrap Icon in Delivery Board*/
+.large-icon {
+  font-size: 2rem;
+}
+/*For smaller screens*/
+@media (max-width: 768px) {
+  #maincontainer {
+    max-width: 95%;
+  }
+}
+
+#companyLogo {
+  max-width: 300%;
+  height: auto;
+}
+
+#tabletitle {
+  font-size: 50px;
+}
+
+#maincontainer {
+  max-width: 66%;
+  margin: 0 auto;
+  border: 1px solid #212529 !important;
+  padding: 20px;
+}
+
+.style_table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #212529;
+}
+
+.style_table th {
+  font-family: Consolas;
+  background-color: #0e8ea8;
+  text-align: center;
+  border: 1px solid #212529;
+  color: #fff;
+}
+
+.style_table td,
+tr {
+  background-color: #83d1e1;
+  color: #212529;
+  border: 1px solid #212529;
+}
+
+.style_table tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#staffTableBody tr.selected {
+  background-color: #198754 !important;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+#deliveryTable tr.selected {
+  background-color: #198754 !important;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.style_table img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease-out;
+}
+
+.style_table img:hover {
+  transform: scale(1.1);
+}
+
+/* Button Styling */
+
+.cancel {
+  font-family: consolas;
+  background-color: #dc3545;
+  color: #fff;
+  width: 120px;
+  height: auto;
+}
+
+.confirm {
+  font-family: Consolas;
+  background-color: #198754;
+  color: #fff;
+  width: 120px;
+  height: auto;
+}
+
+.clear {
+  background-color: #dc3545;
+  font-family: Consolas;
+  color: #fff;
+  width: 120px;
+  height: auto;
+}
+
+.cancel,
+.confirm,
+.clear {
+  transition: transform 0.3s ease;
+}
+
+.cancel:hover,
+.confirm:hover,
+.clear:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar styling*/
+
+.navbar-nav .nav-link {
+  font-family: Consolas;
+  background-color: #0e8ea8;
+  color: #fff;
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: Consolas;
+  background-color: #83d1e1;
+  color: #212529;
+  margin-top: 2px;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #71bbc9;
+  color: #fff;
+}
+
+/*Toast Styling*/
+.toast-container {
+  z-index: 1050;
+}
+
+.bg-danger {
+  background-color: #fff !important;
+}
+
+/*Digital Clock*/
+#timeDate {
+  font-size: 130%;
+  bottom: 0;
+  right: 15px;
+}
+
+/*jQuery UI styling*/
+
+.ui-autocomplete {
+  list-style-type: none;
+  font-family: Consolas;
+  color: #212529;
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  width: 15%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ui-menu-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ui-menu-item-wrapper:hover {
+  background-color: #71bbc9;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
